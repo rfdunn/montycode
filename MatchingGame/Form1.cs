@@ -52,14 +52,9 @@ namespace MatchingGame
             AssignIconsToSquares();
         }
 
-        /// Every label's Click event is handled by this event handler.
-        /// <param name="sender">The label that was clicked.</param>
-        /// <param name="e"></param>
         private void label_Click(object sender, EventArgs e)
         {
-            // The timer is only on after two non-matching  
-            // icons have been shown to the player,  
-            // so ignore any clicks if the timer is running 
+            // The timer is only on after two non-matching icons have been shown to the player, so ignore any clicks if the timer is running 
             if (timer1.Enabled == true)
                 return; 
             
