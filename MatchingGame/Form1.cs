@@ -12,36 +12,26 @@ namespace MatchingGame
 {
     public partial class Form1 : Form
     {
-        // firstClicked points to the first Label control  
-        // that the player clicks, but it will be null  
-        // if the player hasn't clicked a label yet.
+        // firstClicked points to the first Label control  that the player clicks, but it will be null if the player hasn't clicked a label yet.
         Label firstClicked = null;
 
-        // secondClicked points to the second Label control  
-        // that the player clicks.
+        // secondClicked points to the second Label control that the player clicks.
         Label secondClicked = null;
         
         // Use this Random object to choose random icons for the squares.
         Random random = new Random();
 
-        // Each of these letters is an interesting icon 
-        // in the Webdings font, 
-        // and each icon appears twice in this list.
+        // Each of these letters is an interesting icon in the Webdings font, and each icon appears twice in this list.
         List<string> icons = new List<string>() 
         { 
             "!", "!", "N", "N", ",", ",", "k", "k",
             "b", "b", "v", "v", "w", "w", "z", "z"
         };
 
-        /// <summary> 
-        /// Assign each icon from the list of icons to a random square 
-        /// </summary> 
+        // Assign each icon from the list of icons to a random square 
         private void AssignIconsToSquares()
         {
-            // The TableLayoutPanel has 16 labels, 
-            // and the icon list has 16 icons, 
-            // so an icon is pulled at random from the list 
-            // and added to each label.
+            // The TableLayoutPanel has 16 labels, and the icon list has 16 icons, so an icon is pulled at random from the list and added to each label.
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 Label iconLabel = control as Label;
@@ -62,9 +52,7 @@ namespace MatchingGame
             AssignIconsToSquares();
         }
 
-        /// <summary> 
         /// Every label's Click event is handled by this event handler.
-        /// </summary> 
         /// <param name="sender">The label that was clicked.</param>
         /// <param name="e"></param>
         private void label_Click(object sender, EventArgs e)
@@ -127,14 +115,7 @@ namespace MatchingGame
             }
         }
 
-        /// <summary> 
-        /// This timer is started when the player clicks  
-        /// two icons that don't match, 
-        /// so it counts three quarters of a second  
-        /// and then turns itself off and hides both icons.
-        /// </summary> 
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// This timer is started when the player clicks two icons that don't match, so it counts and then turns itself off and hides both icons.
         private void timer1_Tick(object sender, EventArgs e)
         {
             // Stop the timer.
@@ -151,15 +132,10 @@ namespace MatchingGame
             secondClicked = null;
         }
 
-        /// <summary> 
-        /// Check every icon to see if it is matched, by  
-        /// comparing its foreground color to its background color.  
-        /// If all of the icons are matched, the player wins. 
-        /// </summary> 
+        /// Check every icon to see if it is matched, by comparing its foreground color to its background color. If all of the icons are matched, the player wins. 
         private void CheckForWinner()
         {
-            // Go through all of the labels in the TableLayoutPanel,  
-            // checking each one to see if its icon is matched.
+            // Go through all of the labels in the TableLayoutPanel, checking each one to see if its icon is matched.
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 Label iconLabel = control as Label;
@@ -171,9 +147,7 @@ namespace MatchingGame
                 }
             }
 
-            // If the loop didn’t return, it didn't find 
-            // any unmatched icons. 
-            // That means the user won. Show a message and close the form.
+            // If the loop didn’t return, it didn't find any unmatched icons. That means the user won. Show a message and close the form.
             MessageBox.Show("You matched all the icons!", "Well done!");
             Close();
         }

@@ -16,3 +16,12 @@ D:\KidsProjects\C#\MatchingGame\obj\Debug\MatchingGameCS.csprojResolveAssemblyRe
 D:\KidsProjects\C#\MatchingGame\obj\Debug\MatchingGame.Form1.resources
 D:\KidsProjects\C#\MatchingGame\obj\Debug\MatchingGame.Properties.Resources.resources
 D:\KidsProjects\C#\MatchingGame\obj\Debug\MatchingGameCS.csproj.GenerateResource.Cache
+D:\montymatcher\MatchingGame\bin\Debug\MatchingGame.exe.config
+D:\montymatcher\MatchingGame\obj\Debug\MatchingGame.exe
+D:\montymatcher\MatchingGame\obj\Debug\MatchingGame.pdb
+D:\montymatcher\MatchingGame\bin\Debug\MatchingGame.exe
+D:\montymatcher\MatchingGame\bin\Debug\MatchingGame.pdb
+D:\montymatcher\MatchingGame\obj\Debug\MatchingGameCS.csprojResolveAssemblyReference.cache
+D:\montymatcher\MatchingGame\obj\Debug\MatchingGame.Form1.resources
+D:\montymatcher\MatchingGame\obj\Debug\MatchingGame.Properties.Resources.resources
+D:\montymatcher\MatchingGame\obj\Debug\MatchingGameCS.csproj.GenerateResource.Cache
