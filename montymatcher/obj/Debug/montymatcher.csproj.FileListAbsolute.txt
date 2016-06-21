@@ -1,0 +1,3 @@
+D:\Github\montymatcher\montymatcher\bin\Debug\MatchingGame.exe.config
+D:\Github\montymatcher\montymatcher\obj\Debug\MatchingGame.exe
+D:\Github\montymatcher\montymatcher\obj\Debug\MatchingGame.pdb

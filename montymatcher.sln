@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGameCS", "MatchingGame\MatchingGameCS.csproj", "{2C7AA1CA-3C34-4656-A12E-A5B85846DC95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "montymatcher", "montymatcher\montymatcher.csproj", "{2C7AA1CA-3C34-4656-A12E-A5B85846DC95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
