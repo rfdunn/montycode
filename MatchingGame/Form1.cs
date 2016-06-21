@@ -62,17 +62,12 @@ namespace MatchingGame
 
             if (clickedLabel != null)
             {
-                // If the clicked label is black, the player clicked 
-                // an icon that's already been revealed -- 
-                // ignore the click.
+                // If the clicked label is black, the player clicked an icon that's already been revealed -- ignore the click.
                 if (clickedLabel.ForeColor == Color.Black)
                     // All done - leave the if statements.
                     return;
 
-                // If firstClicked is null, this is the first icon  
-                // in the pair that the player clicked, 
-                // so set firstClicked to the label that the player  
-                // clicked, change its color to black, and return. 
+                // If firstClicked is null, this is the first icon in the pair that the player clicked, so set firstClicked to the label that the player clicked, change its color to black, and return. 
                 if (firstClicked == null)
                 {
                     firstClicked = clickedLabel;
@@ -82,19 +77,14 @@ namespace MatchingGame
                     return;
                 }
 
-                // If the player gets this far, the timer isn't 
-                // running and firstClicked isn't null, 
-                // so this must be the second icon the player clicked 
-                // Set its color to black.
+                // If the player gets this far, the timer isn't running and firstClicked isn't null, so this must be the second icon the player clicked. Set its color to black.
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
                 // Check to see if the player won.
                 CheckForWinner();
                 
-                // If the player clicked two matching icons, keep them  
-                // black and reset firstClicked and secondClicked  
-                // so the player can click another icon. 
+                // If the player clicked two matching icons, keep them black and reset firstClicked and secondClicked so the player can click another icon. 
                 if (firstClicked.Text == secondClicked.Text)
                 {
                     firstClicked = null;
@@ -102,10 +92,7 @@ namespace MatchingGame
                     return;
                 }
                 
-                // If the player gets this far, the player  
-                // clicked two different icons, so start the  
-                // timer (which will wait three quarters of  
-                // a second, and then hide the icons).
+                // If the player gets this far, the player clicked two different icons, so start the timer (which will wait three quarters of  a second, and then hide the icons).
                 timer1.Start();
             }
         }
@@ -120,9 +107,7 @@ namespace MatchingGame
             firstClicked.ForeColor = firstClicked.BackColor;
             secondClicked.ForeColor = secondClicked.BackColor;
 
-            // Reset firstClicked and secondClicked  
-            // so the next time a label is 
-            // clicked, the program knows it's the first click.
+            // Reset firstClicked and secondClicked so the next time a label is clicked, the program knows it's the first click.
             firstClicked = null;
             secondClicked = null;
         }

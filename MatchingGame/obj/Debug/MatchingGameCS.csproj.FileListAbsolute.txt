@@ -25,3 +25,6 @@ D:\montymatcher\MatchingGame\obj\Debug\MatchingGameCS.csprojResolveAssemblyRefer
 D:\montymatcher\MatchingGame\obj\Debug\MatchingGame.Form1.resources
 D:\montymatcher\MatchingGame\obj\Debug\MatchingGame.Properties.Resources.resources
 D:\montymatcher\MatchingGame\obj\Debug\MatchingGameCS.csproj.GenerateResource.Cache
+D:\Github\montymatcher\MatchingGame\bin\Debug\MatchingGame.exe.config
+D:\Github\montymatcher\MatchingGame\obj\Debug\MatchingGame.exe
+D:\Github\montymatcher\MatchingGame\obj\Debug\MatchingGame.pdb
