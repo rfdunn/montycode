@@ -121,8 +121,23 @@
   <data name="#mozart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\#mozart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="arr2d2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arr2d2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cat_beard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cat_beard.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dasistkitteh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dasistkitteh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dogmakingsausages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dogmakingsausages.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mockingbird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mockingbird.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_464029759_bca1c5711d_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\464029759_bca1c5711d_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_551px_SuperHornMK8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\551px-SuperHornMK8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
