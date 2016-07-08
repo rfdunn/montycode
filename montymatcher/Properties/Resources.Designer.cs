@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MatchingGame.Properties {
+namespace Montymatcher.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MatchingGame.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MatchingGame.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Montymatcher.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -76,16 +76,6 @@ namespace MatchingGame.Properties {
         internal static System.Drawing.Bitmap _551px_SuperHornMK8 {
             get {
                 object obj = ResourceManager.GetObject("_551px_SuperHornMK8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _mozart {
-            get {
-                object obj = ResourceManager.GetObject("#mozart", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +126,16 @@ namespace MatchingGame.Properties {
         internal static System.Drawing.Bitmap mockingbird {
             get {
                 object obj = ResourceManager.GetObject("mockingbird", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mozart {
+            get {
+                object obj = ResourceManager.GetObject("mozart", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

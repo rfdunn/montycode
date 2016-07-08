@@ -6,22 +6,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MatchingGame.Properties;
+using Montymatcher.Properties;
 
 namespace MatchingGame
 {
     public partial class Form1 : Form
     {
         // firstClicked points to the first Label control  that the player clicks, but it will be null if the player hasn't clicked a label yet.
-        Label firstClicked = null;
 
         // secondClicked points to the second Label control that the player clicks.
-        Label secondClicked = null;
 
         PictureBox firstPictureBoxClicked = null;
         PictureBox secondPictureBoxClicked = null;
-
-        private readonly TileManager _tileManager;
 
         public TileManager TileManager;
 
